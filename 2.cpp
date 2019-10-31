@@ -1,24 +1,26 @@
 /*
-ç»™å‡ºä¸€ä¸ªä¸å¤šäºŽ5ä½çš„æ­£æ•´æ•°ï¼Œè¦æ±‚ï¼š
-1ï¼‰æ±‚å‡ºå®ƒæ˜¯å‡ ä½æ•°
-2ï¼‰åˆ†åˆ«è¾“å‡ºæ¯ä¸€ä½æ•°å­—
-3ï¼‰æŒ‰é€†åºè¾“å‡ºå„ä½æ•°å­—ï¼Œä¾‹å¦‚åŽŸæ•°ä¸º321ï¼Œåº”è¾“å‡º123
+¸ø³öÒ»¸ö²»¶àÓÚ5Î»µÄÕýÕûÊý£¬ÒªÇó£º
+1£©Çó³öËüÊÇ¼¸Î»Êý
+2£©·Ö±ðÊä³öÃ¿Ò»Î»Êý×Ö
+3£©°´ÄæÐòÊä³ö¸÷Î»Êý×Ö£¬ÀýÈçÔ­ÊýÎª321£¬Ó¦Êä³ö123
 */
 #include <stdio.h>
 
 int main(){
  
-	int z,g,s,b,q,w,j,nx;
+	int z,g,s,b,q,w,j;
+	int t=0;
+	
 	int i=0;
-	printf("è¾“å…¥ä¸€ä¸ªä¸å¤šäºŽ5ä½çš„æ­£æ•´æ•°\n\n");
+	printf("ÊäÈëÒ»¸ö²»¶àÓÚ5Î»µÄÕýÕûÊý\n\n");
 	scanf("%d",&z);
-    j=z;                      //å¤åˆ¶ä¸‹zçš„å€¼ä¸ºç¬¬äºŒä¸ªè¦æ±‚è¿ç®—åšå‡†å¤‡
+    j=z;                      //¸´ÖÆÏÂzµÄÖµÎªµÚ¶þ¸öÒªÇóÔËËã×ö×¼±¸
 	
 	while(z>0)
 	{z=z*0.1;
 	 i++;
 	}
-    printf("å®ƒæ˜¯%dä½æ•°\n\n",i);
+    printf("ËüÊÇ%dÎ»Êý\n\n",i);
       
 	  if(i<=1)
 	  {
@@ -74,6 +76,14 @@ int main(){
 			  
 				      
 				 }
+				   //scanf("%d",&t);
+	                    
+	               while(j!=0)
+				   {t=t*10+j%10;
+	                    j/=10;
+				   }
+
+                   printf("%d\n\n",t);
 				   
 
 			  
