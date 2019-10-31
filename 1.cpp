@@ -1,6 +1,6 @@
 /*
-Ñ¡Ôñ½á¹¹³ÌÐòÉè¼Æ
-ÊäÈë4¸öÕûÊý£¬ÒªÇó°´ÕÕ´ÓÐ¡µ½´óµÄË³ÐòÊä³ö*/
+é€‰æ‹©ç»“æž„ç¨‹åºè®¾è®¡
+è¾“å…¥4ä¸ªæ•´æ•°ï¼Œè¦æ±‚æŒ‰ç…§ä»Žå°åˆ°å¤§çš„é¡ºåºè¾“å‡º*/
 
 #include <stdio.h>
 
@@ -9,37 +9,37 @@
 int main(){
 
 
-         int a,b,c,d,t;
+          int a,b,c,d,t;
 
-        scanf("%d,%d,%d,%d,%d",&a,&b,&c,&d,&t);
+          scanf("%d,%d,%d,%d,%d",&a,&b,&c,&d,&t);
 
-		if(a-b>0){
+	  if(a-b>0){
 		
-		          t=a;  a=b;  b=t;
+		    t=a;  a=b;  b=t;
 
-		}
-		if(c-d>0){
+	  }
+          if(c-d>0){
 		
-		          t=c;  c=d;  d=t;
+		    t=c;  c=d;  d=t;
 		
-		}
-        if(b-d>0){
+	  }
+          if(b-d>0){
 		          
 			
-			      t=b;  b=d;  d=t;
+	            t=b;  b=d;  d=t;
 		
-		}
+	  }
 		
 
-		if(a-c>0){
+	  if(a-c>0){
 		          
-			      t=a;  a=c;  c=t;
+	            t=a;  a=c;  c=t;
 		
-		}
-        if(b-c>0){
-		          t=b;  b=c;  c=t;
+	 }
+          if(b-c>0){
+		    t=b;  b=c;  c=t;
 		
-		}
+          }
 
 
 
